@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>ubuntu_lucid-wallpaper-1366x768.jpg</file>
+        <file>O.png</file>
+        <file>X.png</file>
+    </qresource>
+</RCC>

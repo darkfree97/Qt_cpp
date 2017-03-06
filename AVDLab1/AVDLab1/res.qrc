@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>radiation_sign.ico</file>
+        <file>style.css</file>
+    </qresource>
+</RCC>
