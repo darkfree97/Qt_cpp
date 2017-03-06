@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Record.png</file>
+        <file>Balalaika.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>253</width>
+    <height>386</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Step</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>Reset</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>&lt;H1&gt;&lt;CENTER&gt;QLabel HTML - DEMO&lt;/CENTER&gt;&lt;/H1&gt;
+&lt;H2&gt;&lt;CENTER&gt;Image&lt;/CENTER&gt;&lt;/H2&gt;
+&lt;CENTER&gt;&lt;IMG BORDER=\&quot;0\&quot; SRC =\&quot;:/Balalaika.png \&quot;&gt;&lt;/CENTER&gt;
+&lt;H2&gt;&lt;CENTER&gt;List&lt;/CENTER&gt;&lt;/H2&gt;
+&lt;OL&gt;&lt;LI&gt;One&lt;/LI&gt;
+           &lt;LI&gt;Two&lt;/LI&gt;
+           &lt;LI&gt;Three&lt;/LI&gt;
+&lt;/OL&gt;
+&lt;H2&gt;&lt;CENTER&gt;Font Style&lt;/CENTER&gt;&lt;/H2&gt;
+&lt;CENTER&gt;&lt;FONT COLOR = RED &gt;
+&lt;B&gt;Bold&lt;/B&gt;,&lt;I&gt;Italic&lt;/I&gt;,&lt;U&gt;Underline&lt;/U&gt;
+&lt;FONT&gt;&lt;CENTER&gt;
+&lt;H2&gt;&lt;CENTER&gt;Table&lt;/CENTER&gt;&lt;/H2&gt;
+&lt;center&gt;&lt;table&gt;
+&lt;TR BGCOLOR=#ff00ff&gt;
+    &lt;TD&gt;1.1&lt;/TD&gt;&lt;TD&gt;1.2&lt;/TD&gt;&lt;TD&gt;1.3&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;TR BGCOLOR=YELLOW&gt;
+    &lt;TD&gt;2.1&lt;/TD&gt;&lt;TD&gt;2.2&lt;/TD&gt;&lt;TD&gt;2.3&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;TR BGCOLOR=#00f000&gt;
+    &lt;TD&gt;3.1&lt;/TD&gt;&lt;TD&gt;3.2&lt;/TD&gt;&lt;TD&gt;3.3&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;/table&gt;&lt;center&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QProgressBar" name="progressBar">
+      <property name="value">
+       <number>0</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>253</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
