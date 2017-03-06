@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Murica.jpg</file>
+    </qresource>
+</RCC>
